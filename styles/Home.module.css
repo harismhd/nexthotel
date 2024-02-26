@@ -1,0 +1,22 @@
+.title {
+  @apply text-[#333] pb-5 text-center;
+}
+
+.text {
+  @apply text-[#311875];
+}
+
+.btn {
+  @apply block w-44 py-2 px-0 my-5 mx-auto bg-[#c7b4a3] rounded-md text-white text-center;
+}
+
+.background {
+  background-image: url("/calicut.jpeg");
+  background-size: 100%; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  min-height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}

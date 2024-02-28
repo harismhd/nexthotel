@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#e6e5e5ea] text-[#333] font-sans max-w-4xl mx-auto;
+  @apply bg-[#e6e5e5ea] text-[#252222] font-sans max-w-4xl mx-auto;
 }
 
 h1 {
@@ -36,7 +36,7 @@ nav .logo {
 }
 
 footer {
-  @apply block text-center py-8 px-0 mt-16 text-[#777] border-t border-[#eaeaea];
+  @apply block text-center py-8 px-0 mt-16 text-[#777] border-t border-[#ffffff];
 }
 
 .about h1,

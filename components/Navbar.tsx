@@ -5,23 +5,23 @@ import { FC } from "react";
 const Navbar: FC = () => {
   return (
     <nav>
-      {/* <div className="logo">
+      <div className="logo">
         <Image
-          src="/logo.png"
-          width={128}
+          src="/calicut1.png"
+          width={122}
           height={77}
           alt="Employee List Logo"
         />
-      </div> */}
+      </div>
       <Link href="/">
         <a>Home</a>
       </Link>
       <Link href="/employee">
         <a>Restaurant List</a>
       </Link>
-      <Link href="/blog">
+      {/* <Link href="/blog">
         <a>Blog</a>
-      </Link>
+      </Link> */}
       <Link href="/about">
         <a>About</a>
       </Link>

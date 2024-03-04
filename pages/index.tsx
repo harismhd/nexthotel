@@ -20,7 +20,7 @@ const Home: NextPage = () => {
             Nestled along the picturesque coastline of Kerala, Kozhikode,
             formerly known as Calicut, is not only renowned for its rich history
             and scenic beauty but also for its vibrant culinary scene. With
-            influences from Malabar's diverse cultural heritage, the restaurants
+            influences from Malabar s diverse cultural heritage, the restaurants
             in Kozhikode offer a captivating fusion of flavors that will
             tantalize the taste buds of any discerning food enthusiast.
           </p>

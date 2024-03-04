@@ -21,8 +21,8 @@ const EmployeeList: FC<Props> = ({ employees }) => {
   return (
     <>
       <Head>
-        <title>Employee List</title>
-        <meta name="keywords" content="employees" />
+        <title> Restaurant List</title>
+        <meta name="keywords" content="restaurant" />
       </Head>
 
       <div>

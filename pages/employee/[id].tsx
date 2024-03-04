@@ -19,8 +19,8 @@ const Details: FC<Props> = ({ employee }) => {
   return (
     <>
       <Head>
-        <title>Employee List </title>
-        <meta name="keywords" content="employees" />
+        <title>Restaurant List </title>
+        <meta name="keywords" content="restaurant" />
       </Head>
 
       <div className={styles.details}>

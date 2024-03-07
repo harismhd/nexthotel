@@ -34,3 +34,16 @@ export async function getEmployeeData(id: string): Promise<any | null> {
     return null;
   }
 }
+
+export async function deleteEmployee(id: number): Promise<void> {
+  try {
+    const { error } = await supabase.from("hotels").delete().eq("id", id);
+    if (error) {
+      throw error;
+    }
+    console.log(`Employee with ID ${id} deleted successfully`);
+  } catch (error: any) {
+    console.error(`Error deleting employee with ID ${id}:`, error.message);
+    throw error;
+  }
+}

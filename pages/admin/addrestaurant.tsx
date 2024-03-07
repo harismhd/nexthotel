@@ -1,7 +1,10 @@
 import { useState } from "react";
 import { supabase } from "../../utils/supabaseClient";
+import { useRouter } from "next/router";
 
 const AddRestaurantForm = () => {
+  const router = useRouter(); 
+
   const [formData, setFormData] = useState({
     title: "",
     description: "",
@@ -35,6 +38,8 @@ const AddRestaurantForm = () => {
         location: "",
         text: "",
       });
+
+      router.push("/admin");
     } catch (error) {
       //   console.error("Error adding restaurant:", error .message);
     }

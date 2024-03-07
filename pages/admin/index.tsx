@@ -21,7 +21,7 @@ const EmployeeList: FC<Props> = ({ employees }) => {
   return (
     <>
       <Head>
-        <title>Employee List</title>
+        <title>Restaurant List</title>
         <meta name="keywords" content="employees" />
       </Head>
 
@@ -35,7 +35,7 @@ const EmployeeList: FC<Props> = ({ employees }) => {
         </Link>
 
         {employees.map((employee) => (
-          <Link key={employee.id} href={`/employee/${employee.id}`}>
+          <Link key={employee.id} href={`/admin/${employee.id}`}>
             <a className={styles.single}>
               <h3 className="font-bold text-xl">{employee.title}</h3>
               <p>{employee.location}</p>
